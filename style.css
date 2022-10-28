@@ -2,8 +2,7 @@
 
 html, body {
   align-content: center;
-  font-family: 'Montserrat', serif;
-  
+  font-family: 'Montserrat', serif;  
 }
 
 .h1{
@@ -15,7 +14,7 @@ html, body {
 
 #tema{
   text-align: center;
-  padding: 4px; 
+  
 }
 
 #Comecar{
@@ -51,7 +50,8 @@ html, body {
 }
 
 .Questao_Enunciado{
-  font-size: 30px;
+  padding: 40px;
+  font-size: 20px;
   text-align: center;
   padding-top: 4px;
   padding-bottom: 10px;
@@ -65,14 +65,6 @@ html, body {
   padding-bottom: 5px; 
   padding-left: 50px;
   width: 80%;     
-}
-
-circulo{
-background-color: #025492;
-  border: 2px solid rgb(87, 126, 233);
-  border-radius: 50%;
-  margin: 30px;
-  width: 70px;  
 }
 
 img{
@@ -92,10 +84,6 @@ img{
   font-weight: bold;  
 }
 
-.fundoGradiente{
-background: -webkit-gradient(linear, left top, right top, from(#010756), to( #0007C5)); 
-}
-
 #Alternativa { 
   background-color: #5c96c1;
 }
@@ -106,10 +94,6 @@ background: -webkit-gradient(linear, left top, right top, from(#010756), to( #00
   box-shadow: 7px 7px 5px rgba(12, 12, 12, 0.77);
   background-image: linear-gradient(rgb(175, 255, 173), rgb(92, 121, 216));
   margin:auto;  
-  /*opacity : 0.4;  
-  background: linear-gradient(to top, rgba(255, 225, 255, 0) 20%, rgb(255, 255, 255)), center bottom url(img/QF.jpg);
-  background-size: cover;  
-  opacity : 0.4;  */
 }
 
 .Questao_Topo_Esquerda{
@@ -127,13 +111,6 @@ background: -webkit-gradient(linear, left top, right top, from(#010756), to( #00
   float: right;
   padding: 5px; 
 }
-
-/* .Questao_BoxGeral{
-  margin:15px;
-  align-content: center;
-  width: 80%;
-} */
-
 
 #Timer{
   position: relative;

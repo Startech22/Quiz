@@ -143,7 +143,7 @@ function limpaproxima() {
 function mudarPergunta(rand) {
   ItemEscolhido();
   limpaproxima();
-  numera();
+  /*numera();*/
   for (let i = 0; i <= quiz.length; i++) {
     respostaCerta.push(quiz[rand].Resposta_Certa);
     document.getElementById("Questao_Enunciado").innerHTML = quiz[rand].Enunciado;
@@ -195,12 +195,13 @@ function startTimer(duration, display) {
   setInterval(function() {
     minutes = '00';
     seconds = parseInt(timer % 60, 10);
-    seconds = seconds < 60 ? "0" + seconds : seconds;
+    seconds = seconds < 10 ? "0" + seconds : seconds;
     display.textContent = minutes + ":" + seconds;
     if (--timer < 0) {
       timer = 0;
-      alert("Tempo acabou :(   Clique OK para começar de novo...")
       location.reload();
+      alert("Tempo acabou :(   Clique OK para começar de novo...");
+      
 
     }
   }, 1000);
@@ -210,7 +211,7 @@ function Comecar() {
   document.getElementById("mudarPergunta").hidden = false;
   document.getElementById("resposta").hidden = false;
 
-  var duration = 60
+  var duration = 59
     ; // Converter para segundos
   display = document.querySelector('#Timer'); // selecionando o timer
   startTimer(duration, display); // iniciando o timer
