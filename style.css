@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html, body {
+  align-content: center;
+  font-family: 'Montserrat', serif;
+  
+}
+
+.h1{
+  text-align: center;
+  font-weight:bold;
+  font-size: 40px;
+  padding-bottom: 0ch;
+}
+
+#tema{
+  text-align: center;
+  padding: 4px; 
+}
+
+#Comecar{
+  background-color: chartreuse;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: inherit;
+  font-size: medium;
+  font-weight: bold;
+}
+  
+.container{
+  display: flex;
+  width: 100px;
+  height: 100px;    
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #9973E9;
+}
+
+.Alternativa{
+	font-size: 1.1rem;
+  text-align: center;
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 2px solid darkgray;
+  border-radius: 25px;
+  border-spacing: 2px;
+  box-shadow: 7px 7px 5px rgba(12, 12, 12, 0.77);
+  background-color: #ffffff;
+}
+
+.Questao_Enunciado{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  background:#0047a3;
+  color:white;
+}
+
+.Questao_Itens{
+  padding-top: 2px;
+  padding-bottom: 5px; 
+  padding-left: 50px;
+  width: 80%;     
+}
+
+circulo{
+background-color: #025492;
+  border: 2px solid rgb(87, 126, 233);
+  border-radius: 50%;
+  margin: 30px;
+  width: 70px;  
+}
+
+img{
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  background-color: #025492;
+  border: 2px solid rgb(19, 75, 158);
+  box-shadow: 7px 7px 5px rgba(12, 12, 12, 0.77);
+  margin-top: 20px;
+  margin-bottom: 10px;  
+}
+
+.Alternativas:hover{
+  color: #1549c1;
+  font-size: 120%;
+  font-weight: bold;  
+}
+
+.fundoGradiente{
+background: -webkit-gradient(linear, left top, right top, from(#010756), to( #0007C5)); 
+}
+
+#Alternativa { 
+  background-color: #5c96c1;
+}
+
+#quiz{
+  padding-top: 2px;
+  width: 40%;  
+  box-shadow: 7px 7px 5px rgba(12, 12, 12, 0.77);
+  background-image: linear-gradient(rgb(175, 255, 173), rgb(92, 121, 216));
+  margin:auto;  
+  /*opacity : 0.4;  
+  background: linear-gradient(to top, rgba(255, 225, 255, 0) 20%, rgb(255, 255, 255)), center bottom url(img/QF.jpg);
+  background-size: cover;  
+  opacity : 0.4;  */
+}
+
+.Questao_Topo_Esquerda{
+  color: rgb(49, 172, 230);
+  text-align: left;
+  width: 25px;
+  padding: 2px;
+}
+
+.Questao_Topo_Direita{
+  background-color: #020d5f;
+  color: white;
+  margin: 0px px 5px 0px;
+  width: 82px;
+  float: right;
+  padding: 5px; 
+}
+
+/* .Questao_BoxGeral{
+  margin:15px;
+  align-content: center;
+  width: 80%;
+} */
+
+
+#Timer{
+  position: relative;
+  padding: 6px;
+  align-items: left;
+  text-align: center;
+  color: rgb(255, 254, 254);
+  background-color: #ff1908;
+  display: inline-block;
+}
+
+#mudarPergunta{
+  text-align: center;
+  background-color: chartreuse;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: inherit;
+  font-size: medium;
+  font-weight: bold;
+}
+
+#resposta{
+  text-align: right;
+  background-color: rgb(226, 223, 35);
+  padding: 10px;
+  border-radius: 10px;
+  border-color: inherit;
+  font-size: medium;
+  font-weight: bold;
+}
